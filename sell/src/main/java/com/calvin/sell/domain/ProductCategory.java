@@ -33,12 +33,4 @@ public class ProductCategory {
 
     private Integer categoryType;
 
-    @Override
-    public String toString() {
-        return "ProductCategory{" +
-                "categoryId=" + categoryId +
-                ", categoryName='" + categoryName + '\'' +
-                ", categoryType=" + categoryType +
-                '}';
-    }
 }
